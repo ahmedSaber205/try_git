@@ -11,9 +11,21 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter Demo',
+      home: Test(),
     );
   }
 }
 
 // login
 
+// register
+
+// forget pass
+class Test extends StatelessWidget {
+  const Test({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
